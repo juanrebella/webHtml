@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style type="text/css">
+        .pink{
+            background: pink;
+            border:  1px solid purple;
+        }
+        .orange {
+            background: orange;
+            border: 1px solid black;
+            height: 80px; 
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Grid Layout-->
+    <div class="container">
+            <!-- 1rst ROW-->
+            <div class="row"> 
+                <div class="col-md-3 col-sm-6 pink ">Column Medium 3</div>
+                <div class="col-md-3 col-sm-6 pink">Column Medium 3</div>
+                <div class="col-md-3 col-sm-6 pink">Column Medium 3</div>
+                <div class="col-md-3 col-sm-6 pink">Column Medium 3</div>
+            </div>
+
+                    <!-- 2nd Row-->
+                <div class="row"> 
+                    <div class="col-md-3 col-sm-6 orange ">
+                        <div class="row">
+                                <div class="col-md-12 sm-3 xs-3 orange"> First Half </div> 
+                        </div>
+                    </div>  
+
+                    <div class="col-md-3 col-sm-3 pink">Column Medium 2</div>
+                    <div class="col-md-3 col-sm-3 pink">Column Medium 2</div>
+                    <div class="col-md-3 col-sm-3 pink">Column Medium 2</div>
+                </div>
+    </div>
+</body>
+</html>

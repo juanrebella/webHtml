@@ -26,12 +26,9 @@
         <a href="index.html">Back to Index</a>
 
         <div class="container-fluid"> <!--Container 1 -->
-            
-        
-            
                 <section id="form">  <!-- Navbar Section-->
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="">Music</a>
+                    <a class="navbar-brand" href="#">Music</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedId" aria-controls="navbarSupportedId" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -47,70 +44,88 @@
                         </ul>
                     </div>
                 </nav>
-            </section>  
 
-                <section id="form">
+               
                 <!--Bootstrap works in a total of 12 units, its division depends on our needs and structure-->
 
 
                 <div class="row">
                     <div class="col-lg-6">
                     <h1>Music is a life's style</h1>
-                    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-                    <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
                     </div>
                     <div class="col-lg-6">
-                        <img src="/images/paris.jpg" alt="Foto Paris" >  
+                        <img src="/images/music.webp" alt="Foto Paris" class="title-image">  
                     </div>
                     
                 </div>
 
-                
-
             </div> <!-- end Container 1-->
-       
-            <!--Form -->
         </section>  
 
-        <div class="container-fluid"> <!--Container 2 -->       
-        <div class="row">
-            <div class="col-lg-1">
-                <form action="mailto:info@gmail.com" method="post">
-
-                    <div>
-                        <label>First Name</label>
-                        <input type="text" name="yourFirstName">
-                    </div>
-                    <br>
-                    <div>    
-                        <label>Last Name</label>
-                        <input type="text" name="yourLastName">
-                    </div>
-                    <br>
-                    <div>    
-                        <label>Email</label>
-                        <input type="email" name="yourEmail">
-                    </div>
-                    <br>
-                    <div>    
-                        <label>Send me a Message:</label><br>
-                        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <br>
-                    <div>    
-                        <label>Gender</label>
-                        <select name="gender">
-                            <option value="male">Male</option>
-                            <option value="male">Female</option>    
-                        </select>
-                    </div>
-                    <br>
-                    <input type="submit" name="" value="Submit">
-                </form>
+        <section id="features">             <!--Container 2 -->       
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <i class="icon fas fa-check-circle fa-4x"></i>
+                    <h3>Easy to Use</h3>
+                    <p>From beginner to pro.</p>
+                </div>
+                <div class="feature-box col-lg-4">
+                    <i class="icon fas fa-bullseye fa-4x"></i>
+                    <h3>Straight to the point</h3>
+                    <p>Great lessons, all in one place.</p>
+                </div>
+                <div class="feature-box col-lg-4">
+                    <i class="icon fas fa-music fa-4x"></i>
+                    <h3>Results guaranteed</h3>
+                    <p>Find you favorite lesson!</p>
+                </div>
             </div>
-        </div>
+                    
+        </section>
 
-    </div> <!-- end Container 2-->
+        </div> <!-- end Container 2-->
+
+        <div> <!--Container 3 --> 
+            <div class="row-form">
+                <div class="col-lg-1">
+                    <form action="mailto:info@gmail.com" method="post">
+
+                        <div>
+                            <label>First Name</label>
+                            <input type="text" name="yourFirstName">
+                        </div>
+                        <br>
+                        <div>    
+                            <label>Last Name</label>
+                            <input type="text" name="yourLastName">
+                        </div>
+                        <br>
+                        <div>    
+                            <label>Email</label>
+                            <input type="email" name="yourEmail">
+                        </div>
+                        <br>
+                        <div>    
+                            <label>Send me a Message:</label><br>
+                            <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <br>
+                        <div>    
+                            <label>Gender</label>
+                            <select name="gender">
+                                <option value="male">Male</option>
+                                <option value="male">Female</option>    
+                            </select>
+                        </div>
+                        <br>
+                        <input type="submit" name="" value="Submit">
+                    </form>
+                    </div>
+                </div>
+
+        </div><!-- end Container 3-->
 
     </body>
 

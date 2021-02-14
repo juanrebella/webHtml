@@ -69,12 +69,6 @@ a.navbar-brand {
 
 
 
- /* Form */
- .row-form{
-     background-color: rgb(112, 204, 216);
-}
-
-
 /* Features Section */
 #features {
     padding: 7% 15%;
@@ -95,7 +89,16 @@ a.navbar-brand {
 }
 
 
+ /* Form */
+ .row-form{
+    background-color: rgb(169, 190, 190);
+    padding: 7% 15%;
+}
 
+#contact{
+    font-size: 30px;
+    font-family: "Montserrat-black";
+}
 
 
 
